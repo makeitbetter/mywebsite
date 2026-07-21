@@ -13,4 +13,3 @@ obsidian --disable-gpu
 ```
 
 AI (haiku 4.5) actually worked for once with the first solution.
-test
