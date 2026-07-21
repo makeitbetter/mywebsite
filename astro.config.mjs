@@ -11,18 +11,6 @@ export default defineConfig({
     starlight({
       title: 'Neil Smalley',
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/makeitbetter' },{ icon: 'linkedin', label: 'Linkedin', href: 'https://www.linkedin.com/in/neilmsmalley/' } ],
-      sidebar: [
-        {
-          label: 'Guide',
-          items: [
-            { label: 'Example Guide', slug: 'guides/example' },
-          ],
-        },
-        {
-          label: 'Reference',
-          items: [{ autogenerate: { directory: 'reference' } }],
-        },
-      ],
       plugins: [
         catppuccin({
           dark: { flavor: "macchiato", accent: "lavender" },
