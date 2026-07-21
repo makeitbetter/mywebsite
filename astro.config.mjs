@@ -20,7 +20,8 @@ export default defineConfig({
         starlightBlog(
         ),
         starlightObsidian({
-          vault: './src/content/docs/Garden/',
+          vault: '../src/content/docs/Garden/',
+	  skipGeneration: !!process.env['GITHUB'],
          }), 
          ],
       
