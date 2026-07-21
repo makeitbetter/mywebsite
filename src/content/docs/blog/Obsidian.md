@@ -14,4 +14,4 @@ obsidian --disable-gpu
 
 AI (haiku 4.5) actually worked for once with the first solution.
 ![[Pasted image 20260721102702.png]]
-Test3
+Test4
