@@ -13,7 +13,7 @@ export default defineConfig({
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/makeitbetter' },{ icon: 'linkedin', label: 'Linkedin', href: 'https://www.linkedin.com/in/neilmsmalley/' } ],
       sidebar: [
         {
-          label: 'Guides',
+          label: 'Guide',
           items: [
             { label: 'Example Guide', slug: 'guides/example' },
           ],
