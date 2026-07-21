@@ -198,11 +198,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "2bef1313639103b3",
+  "active": "e53e826e24c8e0f4",
   "lastOpenFiles": [
-    "Clippings/GPU passthrough issues with obsidian on KVMQEMU.md",
+    "switchingfromjekylltoastro.md",
     "Obsidian.md",
-    "Clippings",
-    "switchingfromjekylltoastro.md"
+    "Clippings/GPU passthrough issues with obsidian on KVMQEMU.md",
+    "Clippings"
   ]
 }
