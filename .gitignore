@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # build output
 dist/
 # generated types
@@ -21,6 +22,8 @@ pnpm-debug.log*
 .DS_Store
 
 
+=======
+>>>>>>> origin/main
 # This .gitignore is appropriate for repositories deployed to GitHub Pages and using
 # a Gemfile as specified at https://github.com/github/pages-gem#conventional
 
