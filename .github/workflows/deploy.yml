@@ -36,7 +36,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      env: VAULT_PATH: ./src/content/docs/Garden
+  
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
