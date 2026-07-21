@@ -6,3 +6,6 @@ date: 2026-07-21
 ## Switching to Astro
 
 Today I switched to Astro from Jekyll.
+Boy was it an adventure.
+
+
