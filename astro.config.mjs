@@ -20,7 +20,7 @@ export default defineConfig({
         starlightBlog(
         ),
         starlightObsidian({
-          vault: '/Garden',
+          vault: '../Garden',
          }), 
          ],
       
