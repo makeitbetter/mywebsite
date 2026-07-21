@@ -13,5 +13,3 @@ obsidian --disable-gpu
 ```
 
 AI (haiku 4.5) actually worked for once with the first solution.
-having issues adding an image, known bug?
-https://github.com/grant/astro-mdx-satteri-undeclared-dep-repro
