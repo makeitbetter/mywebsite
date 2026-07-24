@@ -11,7 +11,6 @@ Today was pretty busy, but I started on the TryHackMe SOC Level 1 path today. I 
 
 I did 3 rooms:
 ```
-```
 https://tryhackme.com/room/jrsecanalystintrouxo
 https://tryhackme.com/room/socroleinblueteam
 https://tryhackme.com/room/socl1alerttriage
