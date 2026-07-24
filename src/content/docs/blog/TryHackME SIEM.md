@@ -1,9 +1,6 @@
 ---
 title: TryHackMe SOC Level 1
-excerpt:
-publishDate: 2026-07-23
-draft: false
-isFeatured: false
+date: 2026-07-23
 tags:
   - "#THM"
   - "#SOC"
