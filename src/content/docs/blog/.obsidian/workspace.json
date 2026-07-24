@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian.md",
+                "file": "TryHackME SIEM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "TryHackME SIEM"
             }
           }
         ]
@@ -185,9 +185,13 @@
   },
   "active": "e3c9b7068d01b9dc",
   "lastOpenFiles": [
-    "switchingfromjekylltoastro.md",
+    "templates/TMP-Blog.md",
+    "TryHackME SIEM.md",
+    "2026-07-23.md",
+    "templates",
     "Obsidian.md",
     "hwaccel.png",
+    "switchingfromjekylltoastro.md",
     "Pasted.md",
     "Clippings/GPU passthrough issues with obsidian on KVMQEMU.md",
     "Clippings"
