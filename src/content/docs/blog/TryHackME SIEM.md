@@ -2,10 +2,10 @@
 title: TryHackMe SOC Level 1
 date: 2026-07-23
 tags:
-  - "#THM"
-  - "#SOC"
+  - THM
+  - SOC
   - SIEM
-  - "#labs"
+  - labs
 ---
 Today was pretty busy, but I started on the TryHackMe SOC Level 1 path today. I don't have a subscription right now so I'm only doing the free rooms.
 

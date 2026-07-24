@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:THM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,7 +184,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "e3c9b7068d01b9dc",
+  "active": "a156ddfa817fdd42",
   "lastOpenFiles": [
     "templates/TMP-Blog.md",
     "TryHackME SIEM.md",
