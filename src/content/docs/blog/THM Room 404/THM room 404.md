@@ -10,6 +10,7 @@ tags:
 Looking at the room description and tags (web, enumeration) it talked about rooms and source code, I made some initial assumptions to direct my investigation.
 1. There may be something hidden in the web page source code.
 2. There may be an undocumented directory (room) that I need to find so I should break out gobuster.
+
 Both of these assumptions, set me up to take longer than I should have, but I still got to my solution eventually. The room is listed at 30 mins, it took me about an hour and 45 minutes.
 
 Note: I had only given my Kali VM 4GB of RAM which also hurt me, I went back and bumped it up to 16GB after this.
@@ -84,5 +85,5 @@ It didn't have the flag so I repeated the process until I found an older commit 
 Prevention: 
 - .gitignore should always be in place with relevant exclusions.
 - Reverse proxies should be configured to explicitly deny . prefix directories.
-- Git archive can be used to create export the contents without including the Git history.
+- Git archive can be used to export the contents without including the Git history.
 - Secrets scanning + a pre-commit hooks could have prevented the flag from being committed in the first place, the flag belongs in a vault not as a note in a staging commit.
