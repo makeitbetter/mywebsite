@@ -87,6 +87,6 @@ Prevention:
 - .gitignore should always be in place with relevant exclusions.
 - Reverse proxies should be configured to explicitly deny . prefix directories.
 - Git archive can be used to export the contents without including the Git history.
-- Secrets scanning + a pre-commit hooks could have prevented the flag from being committed in the first place, the flag belongs in a vault not as a note in a staging commit.
+- Secrets scanning + pre-commit hooks could have prevented the flag from being committed in the first place, the flag belongs in a vault not as a note in a staging commit.
 
 Note: read some other write-ups, apparently https://github.com/arthaud/git-dumper would have made my life a lot easier, another tool for the toolbox.
