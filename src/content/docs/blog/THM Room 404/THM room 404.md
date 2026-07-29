@@ -6,6 +6,7 @@ tags:
   - hackerholidays
   - ctf
 ---
+https://tryhackme.com/room/hh-room404-804573bf
 
 Looking at the room description and tags (web, enumeration) it talked about rooms and source code, I made some initial assumptions to direct my investigation.
 1. There may be something hidden in the web page source code.

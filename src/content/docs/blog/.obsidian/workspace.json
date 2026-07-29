@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "THM room 404"
             }
-          },
-          {
-            "id": "2df75a06b291e7ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM Room 404/THM room 404.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "THM room 404"
-            }
           }
         ]
       }
@@ -197,11 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e53e826e24c8e0f4",
+  "active": "18fa3695b9baa8a4",
   "lastOpenFiles": [
+    "TryHackME SIEM.md",
+    "Obsidian.md",
+    "THM Room 404/THM room 404.md",
+    "templates/newpost.md",
     "drafts/THM Brochure/THM Brochure.md",
     "drafts/THM Brochure/cyberchef.png",
-    "THM Room 404/THM room 404.md",
     "THM Room 404/git.png",
     "Pasted image 20260728195906.png",
     "THM Room 404/source.png",
@@ -209,15 +198,12 @@
     "drafts/appimages and fuse/appimages and fuse.md",
     "drafts/appimages and fuse/appimagefuse.png",
     "drafts/appimages and fuse",
-    "TryHackME SIEM.md",
     "drafts/THM Brochure/Pasted image 20260725011057.png",
     "drafts/THM Brochure/Pasted image 20260725010350.png",
     "drafts/THM Brochure/Screenshot 2026-07-24 at 19-05-36 Instagram.png",
     "Pasted image 20260725010518.png",
     "drafts/THM Brochure/Screenshot 2026-07-24 at 19-08-41 TryHackMe Cyber Security Training.png",
-    "Obsidian.md",
     "drafts/THM Brochure",
-    "templates/newpost.md",
     "drafts",
     "templates",
     "2026-07-25.md",
