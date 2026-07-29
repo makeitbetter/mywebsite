@@ -1,4 +1,6 @@
 {
-  "baseFontSize": 26,
-  "baseFontSizeAction": true
+  "baseFontSize": 24,
+  "baseFontSizeAction": true,
+  "cssTheme": "Retroma",
+  "theme": "moonstone"
 }

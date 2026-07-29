@@ -47,5 +47,7 @@ Gemfile.lock
 .swp
 .bak
 
-#ignore templates directory
+# Ignore templates directory
 templates/
+# Ignore drafts folder
+drafts/
