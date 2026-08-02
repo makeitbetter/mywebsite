@@ -15,6 +15,7 @@
     "@catppuccin/starlight": "^2.1.0",
     "astro": "^7.0.2",
     "sharp": "^0.35.3",
-    "starlight-blog": "^0.28.0"
-   }
+    "starlight-blog": "^0.28.0",
+    "starlight-site-graph": "^0.5.0"
+  }
 }

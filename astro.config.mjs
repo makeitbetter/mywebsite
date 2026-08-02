@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import catppuccin from "@catppuccin/starlight";
 import starlightBlog from 'starlight-blog';
+import starlightSiteGraph from 'starlight-site-graph'
 
 export default defineConfig({
   site: 'https://neilsmalley.com',
@@ -19,7 +20,7 @@ export default defineConfig({
         starlightBlog(
         ),
       ],
-      
+      plugins: [starlightSiteGraph()],
     }),
   ],
 });
