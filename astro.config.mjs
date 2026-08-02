@@ -20,7 +20,7 @@ export default defineConfig({
         starlightBlog(
         ),
       ],
-      plugins: [starlightSiteGraph()],
+      [starlightSiteGraph()],
     }),
   ],
 });
