@@ -19,7 +19,7 @@ export default defineConfig({
         }),
         starlightBlog(
         ),
-      	starlightSiteGraph(
+      	starlightSiteGraph({
 	  "graphConfig": {
     		"tagRenderMode": "same",
     		"tagStyles": {
@@ -28,7 +28,7 @@ export default defineConfig({
         		"strokeWidth": 8,
         		"cornerType": "round",
         		"strokeCornerRadius": "80%"
-	),
+	}),
       ],
     }),
   ],
