@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "drafts/Starlight Site Graph Plugin.md",
+                "file": "MikroTik RouterOS DNS settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Starlight Site Graph Plugin"
+              "title": "MikroTik RouterOS DNS settings"
             }
           }
         ],
@@ -212,13 +212,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "e53e826e24c8e0f4",
+  "active": "5bcf14c187e75d48",
   "lastOpenFiles": [
+    "drafts/Starlight Site Graph Plugin.md",
     "MikroTik RouterOS DNS settings.md",
     "2026-07-29.md",
     "Obsidian.md",
     "THM Room 404/THM room 404.md",
-    "drafts/Starlight Site Graph Plugin.md",
     "MikroTik DNS",
     "TryHackME SIEM.md",
     "templates/newpost.md",

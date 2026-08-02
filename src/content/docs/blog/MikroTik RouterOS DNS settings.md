@@ -10,13 +10,12 @@ tags:
   - quad9
   - DOH
   - http
-graph: "visible: True"
 ---
 	
 TLDR: Skip to the bottom of the post for the resolution.
 
+I tried to switch my DNS over to quad9 in my MikroTik router today.
 
-I tried to switch my DNS over to quad9 today in my MikroTik router. 
 I mean I already was running it via my pi-hole but I wanted to move where I'm running my pi-hole so I followed this documentation to get it up and running with DOH.
 https://docs.quad9.net/Setup_Guides/Open-Source_Routers/MikroTik_RouterOS_%28Encrypted%29/
 
