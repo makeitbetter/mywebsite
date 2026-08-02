@@ -17,15 +17,13 @@ export default defineConfig({
           dark: { flavor: "macchiato", accent: "lavender" },
           light: { flavor: "latte", accent: "lavender" },
         }),
-        starlightBlog(
-        ),
-      	starlightSiteGraph(
-          {
-            "graphConfig": {
-              "tagRenderMode": "node"
-            }
+        starlightBlog(),
+        starlightSiteGraph({
+          graphConfig: {
+          tagRenderMode: "node",
+          depth: 5
           }
-          ),
+        }),
       ],
     }),
   ],
