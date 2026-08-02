@@ -19,8 +19,9 @@ export default defineConfig({
         }),
         starlightBlog(
         ),
+      	starlightSiteGraph(
+	),
       ],
-      [starlightSiteGraph()],
     }),
   ],
 });
