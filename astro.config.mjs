@@ -18,7 +18,9 @@ export default defineConfig({
           light: { flavor: "latte", accent: "lavender" },
         }),
         starlightBlog(),
-        starlightSiteGraph(),
+        starlightSiteGraph({
+          graphConfig: { tagRenderMode: "node", depth: 5 },
+        }),
       ],
     }),
   ],
