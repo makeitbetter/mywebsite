@@ -21,8 +21,8 @@ export default defineConfig({
         ),
       	starlightSiteGraph(
           {
-            graphConfig: {
-              tagRenderMode: "node"
+            "graphConfig"": {
+              "tagRenderMode": "node"
             }
           }
           ),
