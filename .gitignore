@@ -44,7 +44,7 @@ _site/
 Gemfile.lock
 
 # Ignore swapfiles and backups
-.swp
+*.swp
 .bak
 
 # Ignore templates directory
