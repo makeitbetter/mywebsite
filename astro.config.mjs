@@ -19,8 +19,9 @@ export default defineConfig({
         }),
         starlightBlog(),
         starlightSiteGraph({
-          tagRenderMode: "node",
-          depth: 5
+          "graphConfig": {
+            "tagRenderMode": "node"
+          }
         }),
       ],
     }),
