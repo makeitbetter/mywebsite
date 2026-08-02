@@ -10,7 +10,3 @@ tags:
 
 I added the starlight-site-graph plugin today.
 https://github.com/Fevol/starlight-site-graph
-
-```
-npm i starlight-site-graph
-```
