@@ -22,9 +22,9 @@ export default defineConfig({
 
           graphConfig: {
             // Global graph configuration
-           "tagRenderMode": "node",
-           "depth": 1,
-          }
+           tagRenderMode: "node",
+           depth: 1,
+          },
 
         }),
       ],
