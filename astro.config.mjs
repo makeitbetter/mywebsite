@@ -20,11 +20,11 @@ export default defineConfig({
         starlightBlog(),
         starlightSiteGraph({
 
-  //        graphConfig: {
+          graphConfig: {
             // Global graph configuration
-    //       tagRenderMode: "node",
-      //     depth: 1,
-        //  },
+           tagRenderMode: "node",
+           depth: 1,
+          },
 
          }),
       ],
