@@ -24,7 +24,7 @@ export default defineConfig({
             graphConfig: {
               tagRenderMode: "node"
             }
-          }
+          })
       ],
     }),
   ],
