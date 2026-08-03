@@ -39,10 +39,14 @@
             "id": "68a0929680b6e12e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "THM Complimentary/THM Complimentary.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "THM Complimentary"
             }
           }
         ],
@@ -212,8 +216,8 @@
   },
   "active": "e53e826e24c8e0f4",
   "lastOpenFiles": [
-    "Complimentary/Complimentary.md",
-    "Complimentary",
+    "THM Complimentary/THM Complimentary.md",
+    "THM Complimentary",
     "drafts/Complimentary",
     "drafts",
     "drafts/Complimentary/Complimentary.md",
