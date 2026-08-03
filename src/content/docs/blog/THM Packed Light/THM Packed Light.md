@@ -15,9 +15,7 @@ tags:
 
 I love working with Wireshark. This room gives us a pcapng and the following checklist:
 1. Analyze the provided capture for a covert communication channel.
-
- 2. Identify where the exfiltrated data is being hidden and reassemble it.
-
+2. Identify where the exfiltrated data is being hidden and reassemble it.
 3.  Decode the recovered data and submit the flag.
 
 I intitially went down a rabbit hole the first day I attempted the room. I started looking at the QUIC traffic and looked up how to decrypt it in wireshark and found this blog post. https://blog.elmo.sg/posts/parsing-decrypted-quic-traffic-in-wireshark/
