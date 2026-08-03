@@ -1,9 +1,6 @@
 ---
 title: THM Hacker Holidays - Complimentary
-excerpt:
 date: 2026-08-02
-draft: false
-isFeatured: false
 tags:
   - THM
   - hackerholidays
