@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "THM Brochure/THM Brochure.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,7 +198,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "e53e826e24c8e0f4",
+  "active": "a775bb411879f41c",
   "lastOpenFiles": [
     "drafts/THM Brochure/Screenshot 2026-07-24 at 19-08-41 TryHackMe Cyber Security Training.png",
     "THM Brochure/THM Brochure.md",
