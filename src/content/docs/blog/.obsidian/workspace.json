@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MikroTik RouterOS DNS settings.md",
+                "file": "THM Brochure/THM Brochure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MikroTik RouterOS DNS settings"
-            }
-          },
-          {
-            "id": "340e966062383d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB CTF Highlights registry and micropython.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTB CTF Highlights registry and micropython"
+              "title": "THM Brochure"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,19 +198,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "340e966062383d9b",
+  "active": "e53e826e24c8e0f4",
   "lastOpenFiles": [
-    "HTB CTF Highlights registry and micropython.md",
+    "drafts/THM Brochure/Screenshot 2026-07-24 at 19-08-41 TryHackMe Cyber Security Training.png",
+    "THM Brochure/THM Brochure.md",
+    "drafts/THM Brochure/cyberchef.png",
     "MikroTik RouterOS DNS settings.md",
+    "drafts/THM Brochure/Screenshot 2026-07-24 at 19-05-52 Instagram.png",
+    "THM Room 404/THM room 404.md",
+    "HTB CTF Highlights registry and micropython.md",
     "drafts/Starlight Site Graph Plugin.md",
     "2026-07-29.md",
     "Obsidian.md",
-    "THM Room 404/THM room 404.md",
     "MikroTik DNS",
     "TryHackME SIEM.md",
     "templates/newpost.md",
-    "drafts/THM Brochure/THM Brochure.md",
-    "drafts/THM Brochure/cyberchef.png",
     "THM Room 404/git.png",
     "Pasted image 20260728195906.png",
     "THM Room 404/source.png",
@@ -235,9 +223,7 @@
     "drafts/THM Brochure/Pasted image 20260725011057.png",
     "drafts/THM Brochure/Pasted image 20260725010350.png",
     "drafts/THM Brochure/Screenshot 2026-07-24 at 19-05-36 Instagram.png",
-    "Pasted image 20260725010518.png",
-    "drafts/THM Brochure/Screenshot 2026-07-24 at 19-08-41 TryHackMe Cyber Security Training.png",
-    "drafts/THM Brochure",
+    "THM Brochure",
     "drafts",
     "templates",
     "2026-07-25.md",
