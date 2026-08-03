@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "drafts/Complimentary/Complimentary.md",
+                "file": "Complimentary/Complimentary.md",
                 "mode": "source",
                 "source": false
               },
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca93e06713c71137",
@@ -215,11 +214,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "68a0929680b6e12e",
+  "active": "e53e826e24c8e0f4",
   "lastOpenFiles": [
-    "drafts/Complimentary",
+    "Complimentary",
     "drafts",
-    "drafts/Complimentary/Complimentary.md",
+    "Complimentary/Complimentary.md",
     "THM Brochure/THM Brochure.md",
     "drafts/THM Brochure/Screenshot 2026-07-24 at 19-08-41 TryHackMe Cyber Security Training.png",
     "drafts/THM Brochure/cyberchef.png",
