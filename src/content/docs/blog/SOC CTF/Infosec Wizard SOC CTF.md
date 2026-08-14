@@ -47,13 +47,13 @@ dana.k
 
 Note: How do you know this just from proofpoint logs? I don't think you can, I just went off of the name of the CTF scenario. If you check official the walkthrough there are actual ways of investigating this.
 
-![[Pasted image 20260810182338.png]]
+![[Pasted image 20260810182338.png]](Pasted image 20260810182338.png)
 
 Q3. What was the filename of the malicious file that was downloaded and executed?
 
 Document_Scan_486.js
 
-![[Pasted image 20260810182814.png]]
+![[Pasted image 20260810182814.png]](Pasted image 20260810182814.png)
 
 Q4. On which host did the initial infection occur?
 
