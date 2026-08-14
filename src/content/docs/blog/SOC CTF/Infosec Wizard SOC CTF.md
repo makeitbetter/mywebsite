@@ -47,13 +47,13 @@ dana.k
 
 Note: How do you know this just from proofpoint logs? I don't think you can, I just went off of the name of the CTF scenario. If you check official the walkthrough there are actual ways of investigating this.
 
-![[Pasted image 20260810182338.png]](Pasted image 20260810182338.png)
+![[proofpoint.png]](proofpoint.png)
 
 Q3. What was the filename of the malicious file that was downloaded and executed?
 
 Document_Scan_486.js
 
-![[Pasted image 20260810182814.png]](Pasted image 20260810182814.png)
+![[sysmon.png]](sysmon.png)
 
 Q4. On which host did the initial infection occur?
 
@@ -71,12 +71,12 @@ Q7. What is the name of the scheduled task created for persistence?
 
 Searching by the event id for scheduled tasks (4698) gives us one event with a task name of: \MicrosoftUpdateSync
 
-![[Pasted image 20260810213836.png]]
+![[4698.png]](4986.png)
 
 
 Q8. From which file-sharing service was the second-stage beacon downloaded?
 
-![[Pasted image 20260811073314.png]]
+![[erebussysmon.png]](erebussysmon.png)
 
 Continuing from the initial document open time frame we can see the next download in the sysmon sourcetype https[]:]//file.io/OUXPza4b4uxZ - ( file[.]io is the answer)
 
@@ -89,7 +89,7 @@ Q10. Name one command-and-control (C2) destination the beacon contacted (domain 
 
 In the same time frame we can see an event where it beacons to winupdate[.]us.to
 
-![[Pasted image 20260811074607.png]]
+![[c2.png]](c2.png)
 
 Note: another one where I think trial-and-error plus CTF context helped more than being able to see it just from this alert.
 
@@ -97,7 +97,7 @@ Q11. Name one Active-Directory-reconnaissance tool or command run from the beaco
 
 nltest
 
-![[Pasted image 20260811074740.png]]
+![[nltest.png]](nltest.png)
 
 Pretty obviously suspicious especially given the net command next to it regarding Domain Admins.
 
@@ -105,7 +105,7 @@ Q12. Which domain controller did the attacker access?
 
 Further in the time frame we can see a wmic command that has MER-DC01 listed.
 
-![[Pasted image 20260811075043.png]]
+![[rundll32.png]](rundll32.png)
 
 Q13. What mechanism did the attacker use to execute the beacon on the domain controller?
 
@@ -119,11 +119,11 @@ Q15. What remote-access tool did the attacker install for persistence?
 
 Moving further down the time frame we can see that they install anydesk.
 
-![[Pasted image 20260811111010.png]]
+![[anydesk.png]](anydesk.png)
 
 Q16. What is the name of the hidden local admin account the attacker created?
 
-![[Pasted image 20260811123739.png]]
+![[oldadmin.png]](oldadmin.png)
 
 oldadministrator - I wasn't looking far enough ahead in the time frame originally.
 
@@ -131,7 +131,7 @@ Since this is a registry change, in the future, I could search for event id 4657
 
 Q17. What file did the attacker open on a network share to harvest credentials?
 
-![[Pasted image 20260811121030.png]]
+![[passwords.png]](passwords.png)
 
 passwords.xlsx
 
@@ -144,8 +144,8 @@ rclone (see dfir report)
 https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/
 I found a dfir report write up at this point so I knew to search for rclone. 
 Definitely better ways to investigate this.
-![[Pasted image 20260811133752.png]]
-![[Pasted image 20260811134322.png]]
+![[rclone.png]](rclone.png)
+![[commandline.png]](commandline.png)
 
 Q19. To what cloud service was the data exfiltrated?
 
@@ -155,7 +155,7 @@ Q20. What command did the attacker run to delete volume shadow copies?
 
 I actually saw this one by accident looking an answer to an earlier question and filled it out since I recognized the command.
 
-![[Pasted image 20260811115045.png]]
+![[vss.png]](vss.png)
 
 vssadmin delete shadows /all /quiet
 
@@ -164,11 +164,11 @@ Q21. Which Windows Security Event ID indicates the attacker cleared the event lo
 Event id: 1102
 I looked this one up, I definitely need to spend more time with event IDs. I should probably make a poster or something. 
 
-![[Pasted image 20260811125534.png]]
+![[1182.png]](1182.png)
 
 Q22. The attacker ran the ransomware on the domain controller. What on-disk **payload file (the DLL)** did they execute to encrypt the files?
 
-![[Pasted image 20260811130025.png]]
+![[lockername.png]](lockername.png)
 
 rundll32.exe C:\ProgramData\microsoft\sysfunc.dll,#1 -lockername sysfunc
 
