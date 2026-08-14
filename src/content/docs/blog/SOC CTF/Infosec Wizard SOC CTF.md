@@ -34,7 +34,7 @@ python elastic/load_elastic.py --url http://localhost:9200 --index iceid --user 
 
 This post is very spoiler heavy so I would suggest doing the investigation before reading if you haven't already.
 
-You should also watch the livestream recordings as they are a great learning experiences.
+You should also watch the livestream recordings as they are great learning experiences.
 https://www.youtube.com/live/vNR_mJbxlqE
 https://www.youtube.com/live/lUjQQZFRHJk
 
