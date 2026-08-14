@@ -27,11 +27,16 @@ The environment is realistic: alongside the real intrusion there's legitimate, b
 https://github.com/jirosgyros/soc-ctf-scanned-document-468
 
 I went with the Elasticsearch/Kibana option A and ran into needing to supply it with credentials but no cert so I just had to remove the s from the second command.
+
 ```
 python elastic/load_elastic.py --url http://localhost:9200 --index iceid --user elastic --password <your-password> --no-verify
 ```
 
 This post is very spoiler heavy so I would suggest doing the investigation before reading if you haven't already.
+
+You should also watch the livestream recordings as they are a great learning experiences.
+https://www.youtube.com/live/vNR_mJbxlqE
+https://www.youtube.com/live/lUjQQZFRHJk
 
 -------
 Q1. How many distinct `sourcetype`s are present in the index?
