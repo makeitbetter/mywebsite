@@ -68,13 +68,12 @@ I went through each link and looked at some of the different files. I finally we
 
 I tried to clone it again. Then I tried to use git-cat file which didn't work out either.
 I finally thought to use the file command and figured out that they were zlib compressed, confirming what the AI had suggested earlier.
-I did some googling to figure out how to un-compress them. The AI overview was actually right on the first try. 
-I had to install the tool first with 
+I did some googling to figure out how to uncompress them. The AI overview was actually right on the first try. 
+I had to install the tool qpdf first which gives us zlib-flate.
 ```
 sudo apt install qpdf
 ```
 
-which gives us zlib-flate
 I uncompressed the commit file with
 
 ```

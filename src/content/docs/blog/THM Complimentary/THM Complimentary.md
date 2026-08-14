@@ -32,14 +32,14 @@ aws cognito-identity get-credentials-for-identity --identity-id <identity-id-fro
 
 From there I saw that it expired but I didn't check the expiration time, and was concerned that I would have to retype it. I had Claude (Haiku 4.5) write me a script for running these automatically, which worked fine but there was a problem I didn't discover until much later.
 
-I had it try to view the table but it came back permssion denied so I tried a bunch of different stuff. I found these great slides (https://www.yassineaboukir.com/talks/NahamConEU2022.pdf) and tried having Claude write in a step using  https://github.com/andresriancho/enumerate-iam to enumerate the permissions. 
+I had it try to view the table but it came back permission denied so I tried a bunch of different stuff. I found these slides (https://www.yassineaboukir.com/talks/NahamConEU2022.pdf) and tried having Claude write in a step using  https://github.com/andresriancho/enumerate-iam to enumerate the permissions. 
 
 I was able to see that the role had permission but I was still getting access denied.
 
-At this point I figured I needed help and started watching the walkthrough. I got part of the way through which basically validated my approach. I checked the script and confirmed that like the video the credentials were being exported via env variables. Except they weren't, when I checked the awscli they weren't configured properly, so I finally entered it manually and it just worked, from there I was able to scan the DynamoDB table, (the name of the table could be seen in the app.js)
+At this point I figured I needed help and started watching the walkthrough. I got part of the way through which basically validated my approach. I checked the script and confirmed that like the video the credentials were being exported via env variables. Except they weren't. When I checked the awscli they weren't configured properly. I finally entered it manually and it just worked, from there I was able to scan the DynamoDB table, (the name of the table could be seen in the app.js)
 ```
 aws dynamodb scan --table-name your-table-name
 ```
-which listed the profiles of the other users, revealing the flag in one of the profiles.
+Which listed the profiles of the other users, revealing the flag in one of the profiles.
 
 

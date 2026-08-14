@@ -51,3 +51,4 @@ Gemfile.lock
 templates/
 # Ignore drafts folder
 drafts/
+.obsidian/
