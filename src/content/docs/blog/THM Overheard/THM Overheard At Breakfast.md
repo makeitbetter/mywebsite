@@ -12,6 +12,7 @@ https://tryhackme.com/room/hh-overheardatbreakfast-6f01793c
 
 This one is very straightforward.
 We are given a png screenshot and the following checklist:
+
 1. Analyze the provided conversation for identifying details
 
  2. Extract the relevant clues

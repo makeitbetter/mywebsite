@@ -8,7 +8,7 @@ tags:
   - AWS
   - Cognito
 ---
-https://tryhackme.com/room/hh-overheardatbreakfast-6f01793c
+https://tryhackme.com/room/hh-complimentary-05e0b604
 
 This one was a bit rough, I got about half-way there on my own before I had to watch the walk-through video.
 
