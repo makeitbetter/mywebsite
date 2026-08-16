@@ -7,6 +7,7 @@ tags:
   - OSINT
   - ctf
 ---
+https://tryhackme.com/room/hh-thebrochure-081f3e36
 
 I tried exiftool and tineye first.
 Did some DDGing and found the resort insta.

@@ -12,6 +12,7 @@ tags:
   - http
   - QUIC
 ---
+https://tryhackme.com/room/hh-packedlight-02e5330c
 
 I love working with Wireshark. This room gives us a pcapng and the following checklist:
 1. Analyze the provided capture for a covert communication channel.
