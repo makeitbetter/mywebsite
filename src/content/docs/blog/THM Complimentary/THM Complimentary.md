@@ -13,9 +13,9 @@ https://tryhackme.com/room/hh-complimentary-05e0b604
 This one was a bit rough, I got about half-way there on my own before I had to watch the walk-through video.
 
 It starts out by giving us  a link to an app on AWS us-east-1 and the following checklist:
-1. Track down the AWS mechanism issuing you credentials behind the scenes.
- 2. Use those credentials to dump more than your own record from the app's DynamoDB table.
- 3. Retrieve the flag from another guest's data.
+- Track down the AWS mechanism issuing you credentials behind the scenes.
+- Use those credentials to dump more than your own record from the app's DynamoDB table.
+- Retrieve the flag from another guest's data.
 
 Starting out on the app page I tried going to /Spa since it said something about spa visits, this of course gave me an error and some info as the key was not found. 
 

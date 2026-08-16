@@ -9,8 +9,8 @@ tags:
 https://tryhackme.com/room/hh-room404-804573bf
 
 Looking at the room description and tags (web, directory enumeration) it talked about rooms and source code, I made some initial assumptions to direct my investigation.
-1. There may be something hidden in the web page source code.
-2. There may be an undocumented directory (room) that I need to find so I should break out gobuster.
+- There may be something hidden in the web page source code.
+- There may be an undocumented directory (room) that I need to find so I should break out gobuster.
 
 Both of these assumptions, set me up to take longer than I should have, but I still got to my solution eventually. The room is listed at 30 mins, it took me about an hour and 45 minutes.
 

@@ -15,11 +15,11 @@ tags:
 https://tryhackme.com/room/hh-packedlight-02e5330c
 
 I love working with Wireshark. This room gives us a pcapng and the following checklist:
-1. Analyze the provided capture for a covert communication channel.
-2. Identify where the exfiltrated data is being hidden and reassemble it.
-3.  Decode the recovered data and submit the flag.
+- Analyze the provided capture for a covert communication channel.
+- Identify where the exfiltrated data is being hidden and reassemble it.
+- Decode the recovered data and submit the flag.
 
-I intitially went down a rabbit hole the first day I attempted the room. I started looking at the QUIC traffic and looked up how to decrypt it in wireshark and found this blog post. https://blog.elmo.sg/posts/parsing-decrypted-quic-traffic-in-wireshark/
+I initially went down a rabbit hole the first day I attempted the room. I started looking at the QUIC traffic and looked up how to decrypt it in wireshark and found this blog post. https://blog.elmo.sg/posts/parsing-decrypted-quic-traffic-in-wireshark/
 
 That didn't work so I set the room aside for a few days. I came back and read the 0xMia "post" again. 
 This time I was able to filter on 
@@ -27,7 +27,7 @@ This time I was able to filter on
 http.port == 8080
 ```
 
-from there I selected one of the packets, right clicked and selected follow http stream from the menu, which gave me the following python script.
+From there I selected one of the packets, right-clicked and selected follow HTTP stream from the menu, which gave me the following python script.
 
 ```
 import requests
@@ -111,7 +111,8 @@ listener.join()
 
 As we can see in the script it is XORing with the key then base64 encoding it.
 
-I fed the script to Claude (haiku 4.5) and it figured out how to reverse that process, it made some suggestions about decoding in Wireshark or exporting as a file, but I pointed out that it is spread across each packets cookies and it came back with the following python script and how to export it using tshark.
+I fed the script to Claude (haiku 4.5) and it figured out how to reverse that process.
+It made some suggestions about decoding in Wireshark or exporting as a file, but I pointed out that it is spread across each packets cookies. It came back with the following python script and how to export it using tshark.
 
 ```
 tshark -r traffic.pcapng -Y 'http.cookie contains "hotel_sess_state"' \
