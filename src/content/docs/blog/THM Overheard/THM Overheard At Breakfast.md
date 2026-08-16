@@ -13,13 +13,13 @@ https://tryhackme.com/room/hh-overheardatbreakfast-6f01793c
 This one is very straightforward.
 We are given a png screenshot and the following checklist:
 
-1. Analyze the provided conversation for identifying details
+- Analyze the provided conversation for identifying details
 
- 2. Extract the relevant clues
+- Extract the relevant clues
 
- 3. Locate the hidden account
+- Locate the hidden account
 
- 4. Submit the flag
+- Submit the flag
 
 I downloaded the zip and extracted the png. I ran exiftool on it and strings to check if any information could be gathered from metadata etc. or the file itself.
 
